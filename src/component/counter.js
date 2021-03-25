@@ -21,13 +21,11 @@ class Counter extends React.Component {
     });
   }
 
-
   render() {
   
     return (
       <div>
         <h2>COUNTER </h2>
-       
         <p>{this.state.timer}</p>
       </div>
     );

@@ -7,8 +7,9 @@ const userProfile={
 textAlign:'center',
 color : 'grey',
 }
+
  const visibilityB={
-  backgroundColor: 'green',
+  backgroundColor: '#83CB9A',
   color:'white',
   border:'transparent' ,
   padding:'10px 15px',
@@ -22,6 +23,7 @@ export default function App() {
     return (
 
 <div className="userProfile" style= {userProfile}>
+ 
   <button className="visibilityB" style={visibilityB} onClick={() => setShow(!show)}>
         {show ? "Hide Profile" : "Show Profile"}
       </button>
